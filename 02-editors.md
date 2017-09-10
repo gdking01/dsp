@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> ```nano``` because it took me fifteen minutes to start editing a document in vim, and apparently emacs isn't always available when terminal text editors are needed.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using atom, after looking at the various features of other graphical editors (including my usual gedit.) It can be modified in a lot of ways, including prebuilt packages (that I will likely be using) and a fully customizable JavaScript startup script (which I probably won't, but it's nice to know it's there.) It has some nice features like github integration as well. One keybinding I see myself using is ctrl-k, which opens a tree view for folding and unfolding sections of text.
 
  
