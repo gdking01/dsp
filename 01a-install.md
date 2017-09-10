@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I initially had Python 2 installed because that's what I'm comfortable with. Since you just said 3 is the recommended version, I installed that instead. Besides, at some point 2.x is going to get deprecated and I might as well switch some time.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> There are a few ways but the easiest is just to type '''python''' in a terminal and see what number is in the preamble material when it initializes.
 
  
 
