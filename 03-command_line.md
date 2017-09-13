@@ -19,22 +19,22 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-Search a file for a keyword: `grep FILE_NAME KEYWORD`
-print a file to the screen: `echo FILE_NAME`
+* Search a file for a keyword: `grep FILE_NAME KEYWORD`
+* print a file to the screen: `echo FILE_NAME`
+
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  Lists non-hidden files in directory
-`ls -a`  Lists all files in directory
-`ls -l`  Lists non-hidden files, giving user, permission, and size info for each
-`ls -lh`  As above, but replace byte size with, for example, "4MB"
-`ls -lah`  As `ls lh` but also include hidden files
-`ls -t`  as  `ls` but sort by timestamp, newest first
-`ls -Glp`  list non-hidden files in long form but omit group listing and add a / to directory names
+* `ls`  Lists non-hidden files in directory
+* `ls -a`  Lists all files in directory
+* `ls -l`  Lists non-hidden files, giving user, permission, and size info for each
+* `ls -lh`  As above, but replace byte size with, for example, "4MB"
+* `ls -lah`  As `ls lh` but also include hidden files
+* `ls -t`  as  `ls` but sort by timestamp, newest first
+* `ls -Glp`  list non-hidden files in long form but omit group listing and add a / to directory names
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -42,10 +42,10 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -L` follows symbolic links instead of giving the info for the link itself
-> > `ls -mQ` outputs entries enclosed in quotes, separated by commas, for easy machine reading
-> > `ls -R` lists an entire document tree at once
-> > `ls --group-directories-first` groups directories first in the listing
+* `ls -L` follows symbolic links instead of giving the info for the link itself
+* `ls -mQ` outputs entries enclosed in quotes, separated by commas, for easy machine reading
+* `ls -R` lists an entire document tree at once
+* `ls --group-directories-first` groups directories first in the listing
 
 ---
 
@@ -53,7 +53,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` takes its input and breaks it into arguments suitable for piping into another command. For example, to search all files in the active directory for the word "fish", we could do
+`xargs` takes its input and breaks it into arguments suitable for piping into another command. For example, to search all files in the active directory for the word "fish", we could do
 
 `ls -1 | xargs grep "fish"`
 
